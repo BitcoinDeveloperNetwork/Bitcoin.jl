@@ -8,9 +8,9 @@ end
 
 function geturl(testnet::Bool=false)
     if testnet
-        return "http://tbtc.brane.cc:18332"
+        return "http://localhost:18332"
     else
-        return "http://btc.brane.cc:8332"
+        return "http://localhost:8332"
     end
 end
 
